@@ -17,7 +17,7 @@ const Footer = () => {
              <img src={codehawksLogo} alt=" Code Hawk logo"/>
               <h2 className='text-white text-2xl sm:text-xl md:2xl py-8'>Not sure where to go after completing our courses?</h2>
               <p className='text-white'>Apply your skills at the CodeHawks competitive audits platform. Hack, win prizes and shape the future of Web3!</p>
-              <span className='flex items-center gap-2 m-8 justify-center border-2 py-2 border-blue-100 text-white rounded-lg'>
+              <span className='flex items-center gap-2 m-8 justify-center border-2 py-2  border-blue-100 text-white rounded-lg'>
               Visit CodeHawks
               <FaArrowRight  className='text-white text-sm '/>
             </span>
@@ -27,8 +27,6 @@ const Footer = () => {
           </div>
         </div>
         </div>
-      
-
     </div>
     <div className='flex items-center'>
       <div className='m-8'>
@@ -91,21 +89,25 @@ const Footer = () => {
         </span>
       </div>
     </div>
-    <div className="bg-black opacity-2 mt-8">
-      <div className='text-white'>
-        <h2>Join 100,000+ students</h2>
-        <p>Stay in the loop with everything you need to know.</p>
+    <div className="bg-black opacity-2 mt-8  rounded-xl">
+      <div className='text-white '>
+        <h2 className="p-8 text-xl text-gray-300">Join 100,000+ students</h2>
+        <p className="text-xl text-gray-300">Stay in the loop with everything you need to know.</p>
         <div>
-        <span className='flex items-center gap-2 m-8 justify-center border-2 py-2 border-blue-100 text-white rounded-lg'>
+        <span className='flex w-44 items-center gap-2 m-8 justify-center  border-2 py-2 border-blue-100 text-white rounded-lg'>
               Visit CodeHawks
               <FaArrowRight  className='text-white text-sm '/>
-            </span>
-            <button>Subscribe</button>
-            <p>We will not share your info with 3rd parties without consent.</p>
+          </span>
+          <div className="flex items-center justify-center   gap-4 p-8">
+            <p className="p-2 border-2 text-gray-400 border-blue-200  rounded-xl text-2xl ">Enter your Email</p>
+            <button className="text-xl p-4 text-gray-200 font-semibold ">Subscribe</button>
+          </div>
+          <p className="text-xl text-gray-400 ">We will not share your info with 3rd parties without consent.</p>
+
         </div>
       </div>
-      <div className='text-white'>
-        <ul className='flex items-center justify-end py-4'>
+      <div className='text-white px-8 '>
+        <ul className='flex items-center flex-wrap gap-4 px-4 text-xl justify-end py-4'>
           <li>
             <Link>Home</Link>
           </li>

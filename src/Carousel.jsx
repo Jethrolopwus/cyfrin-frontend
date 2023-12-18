@@ -3,7 +3,7 @@
 // import uj from "./assets/uj.jpg";
 // import ya from "../images/ya.png";
 // import sterling from "../images/sterling.png";
-// import tic from "../images/tic.png";
+import tic from ".//assets/tic.png";
 // import vesti from "../images/vesti.jpg";
 import gps from "./assets/gps.jpg";
 import giz from "./assets/giz.jpg";
@@ -53,7 +53,7 @@ const Carousel = () => {
             </div>
           </SwiperSlide> */}
           <SwiperSlide>
-            <div className=" !h-32 !w-32 bg-green-800 rounded-2xl flex items-center justify-center group">
+            <div className=" !h-32 !w-32  rounded-2xl flex items-center justify-center group">
               <img
                 className="opacity-40 group-hover:opacity-100 !h-32 !w-32 rounded-2xl transform duration-500 ease-in-out"
                 src={gps}
@@ -62,7 +62,7 @@ const Carousel = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className=" !h-32 !w-32 bg-green-800 rounded-2xl flex items-center justify-center group">
+            <div className="!h-32 !w-32 rounded-2xl flex items-center justify-center group">
               <img
                 className="opacity-40 group-hover:opacity-100 transform duration-500 ease-in-out"
                 src={gdg}
@@ -71,7 +71,7 @@ const Carousel = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className=" !h-32 !w-32 bg-green-800 rounded-2xl flex items-center justify-center group">
+            <div className="!h-32 !w-32 rounded-2xl flex items-center justify-center group">
               <img
                 className="opacity-40 group-hover:opacity-100 rounded-2xl transform duration-500 ease-in-out"
                 src={itf}
@@ -80,16 +80,16 @@ const Carousel = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-              <div className=" !h-32 !w-32 bg-green-800 rounded-2xl flex items-center justify-center group">
+              <div className="!h-32 !w-32 rounded-2xl flex items-center justify-center group">
               <img
                 className="opacity-40 group-hover:opacity-100 transform rounded-2xl duration-500 ease-in-out"
-                src={jtg}
+                src={tic}
                 alt="Client 09"
               />
             </div>
           </SwiperSlide>
           <SwiperSlide>
-             <div className=" !h-32 !w-32 bg-green-800 rounded-2xl flex items-center justify-center group">
+             <div className="!h-32 !w-32 rounded-2xl flex items-center justify-center group">
               <img
                 className="opacity-40 group-hover:opacity-100 transform duration-500 ease-in-out"
                 src={giz}
@@ -98,7 +98,7 @@ const Carousel = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className=" !h-32 !w-32 bg-green-800 rounded-2xl flex items-center justify-center group">
+            <div className="!h-32 !w-32  flex items-center justify-center group">
               <img
                 className="opacity-40 group-hover:opacity-100 transform rounded-2xl duration-500 ease-in-out"
                 src={jtg}
