@@ -11,14 +11,14 @@ const Testimonials = () => {
   return (
     <main > 
         
-        <div className='flex flex-col md:flex-col items-center mt-8  '>
+        <div className='flex flex-col items-center mt-8 w-full '>
                   <div>
                       <h2 className='text-blue-600 text-md text-center my-4 font-bold'>Students Love Us</h2>
                       <h2 className='text-3xl text-center font-semibold my-4'>Student Testimonials</h2>
                       <p className='text-xl text-gray-500 max-w-2xl my-4'>We’ve helped thousands of people landing a job in web3 and level up their careers, but don’t just take our word for it:</p>
                   </div>
                 
-                `<div className='flex  gap-4  mt-8 '>
+                `<div className='flex flex-wrap items-center gap-4  mt-8w-11/12 mx-auto '>
                         <div className='border-2 rounded-3xl  bg-gray-200  '>
                         <p className=' text-gray-500   text-xl p-12 '>If there’s one resource that Web3 developers point to, it’s Cyfrin’s ultimate tutorials. They’re standout resources that have empowered countless developers to learn blockchains, learn Solidity, and dive deep into Web3 development.</p>
                          <span className='flex p-8 m-8 w-32 gap-2'>
@@ -46,7 +46,7 @@ const Testimonials = () => {
                       </div>
                 </div>
 
-                  <div className='flex  items-center gap-4 mt-8  '>
+                  <div className='flex flex-wrap items-center gap-4 mt-8  w-11/12 mx-auto'>
                         <div className='border-2 rounded-3xl bg-gray-200'>
                           <p className='text-xl text-gray-500 p-12 '>Cyfrin Updraft videos on smart contract development have been instrumental in my blockchain journey, standing out with their clarity and accessibility. Their readiness to support and engage with learners makes me excited for more of their interactive and insightful content in the Web3 space.</p>
                           <span className='flex py-8 m-8 w-20 gap-2'>
@@ -72,7 +72,7 @@ const Testimonials = () => {
                           </span>
                         </div>
                     </div>
-                  <div className='flex  items-center gap-4 mt-8   '>
+                  <div className='flex flex-wrap items-center gap-4 mt-8  w-11/12 mx-auto '>
                       <div className='border-2 rounded-3xl bg-gray-200'>
                         <p className='text-xl text-gray-500 p-8'>I took Cyfrin’s courses, and I took them seriously. At least one hour every day, documented the progress, didn’t skip any second. Haven’t found a better web3 course since. Now I’m full-time in web3, working as Senior Developer Advocate at Ceramic Network.</p>
                         <span className='flex py-4 m-8 w-20 gap-2'>

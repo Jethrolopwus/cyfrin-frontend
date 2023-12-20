@@ -10,10 +10,10 @@ import logo from "./assets/codehawks-logo.png"
 
 const Footer = () => {
   return (
-    <footer>
-        <div className='bg-black sm:mt-2 md:mx-2  mt-4 border-b-2 rounded-lg'>
+    <footer className="w-full">
+        <div className='bg-black sm:mt-2 md:mx-2  mt-4 border-b-2 rounded-lg '>
       <div className=' py-32'>
-        <div className='flex items-center gap-2 mx-4  border-2 border-gray-200 rounded-3xl'>
+        <div className='flex flex-wrap items-center gap-2 mx-4  border-2 border-gray-200 rounded-3xl'>
              <div className='m-8'>
                 <img src={codehawksLogo} alt=" Code Hawk logo"/>
                 <h2 className='text-white text-2xl sm:text-xl md:2xl py-8'>Not sure where to go after completing our courses?</h2>
@@ -29,23 +29,23 @@ const Footer = () => {
         </div>
         </div>
     </div>
-    <div className='flex items-center'>
-      <div className='m-8'>
-        <p className='text-blue-600 py-4'>Support</p>
-        <h1 className='text-3xl font-bold py-8'>FAQs</h1>
+    <div className='flex flex-wrap md:flex-nowrap'>
+      <div className='m-8 w-full md:w-[45%] md:text-start'>
+        <p className='text-blue-600 py-2'>Support</p>
+        <h1 className='text-3xl font-bold py-3'>FAQs</h1>
         <p className='text-2xl text-gray-600'>Can’t find an answer? Join our Discord or follow us on Twitter.</p>
-       <div className='flex items-center justify-around m-8'>
+       <div className='flex flex-wrap items-center w-full justify-center md:justify-start pt-5 gap-4'>
          <span className='flex items-center  border-2 py-2 w-36 justify-center  border-blue-100 rounded-lg'>
               <FaDiscord className='' />
-               <p className='text-lg px-4'>Discord</p> 
+               <p className='text-lg px-4 text-blue-600'>Discord</p> 
             </span>
             <span className='flex items-center  w-36 justify-center  border-2 py-2 border-blue-100  rounded-lg'>
             <FiTwitter />
-            <p className='text-lg px-4'>Twitter</p>
+            <p className='text-lg px-4 text-blue-600'>Twitter</p>
             </span>
        </div>
       </div>
-      <div className='m-8 p-8 w-full bg-gray-50'>
+      <div className='m-8 p-8 w-full md:w-[45%] bg-gray-50'>
         <span className='flex items-center justify-between p-4'>How do I get access to Cyfrin Updraft?
         <FiPlusCircle />
         </span>
@@ -100,7 +100,7 @@ const Footer = () => {
               <FaArrowRight  className='text-white text-sm '/>
           </span>
           <div className="flex items-center justify-center   gap-4 p-8">
-            <p className="p-2 border-2 text-gray-400 border-blue-200  rounded-xl text-2xl ">Enter your Email</p>
+            <p className="p-2 border-2 text-gray-400 border-blue-200  rounded-xl text-2xl">Enter your Email</p>
             <button className="text-xl p-4 text-gray-200 font-semibold ">Subscribe</button>
           </div>
           <img src={logo} alt="logo" className=" p-4" />
