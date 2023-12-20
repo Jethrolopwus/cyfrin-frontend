@@ -32,9 +32,10 @@ const Navbar = () => {
             </div>
             <div className='block md:hidden cursor-pointer relative'>
               <FaBars onClick={handleToggleMenu} />
-              <div className={` ${isMenuOpen ? 'flex flex-col absolute top-14 right-0' : 'hidden '}`}>
-                <p>Home</p>
-                <p>Courses</p>
+              <div className={` ${isMenuOpen ? 'flex flex-col absolute top-14 right-0 bg-slate-300 rounded-2xl gap-2' : 'hidden '}`}>
+                <p className='font-semibold m-2'>Home</p>
+                <p className='font-semibold'>Courses</p>
+                
                 <button className="border-2 text-gray-600 text-center text-md rounded-xl py-2 px-4 font-semibold bg-gray-100">Signin</button>
                 <button className="border-1 bg-blue-600 hover:bg-blue-900  text-white text-center text-md  rounded-xl px-4 py-2 font-semibold">Login</button>
               </div>

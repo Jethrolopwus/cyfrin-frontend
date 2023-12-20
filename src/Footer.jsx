@@ -51,7 +51,7 @@ const Footer = () => {
         </span>
         <span className='flex items-center justify-between py-4'>When will I receive my early access code?
         <FiPlusCircle />
-        </span>
+        </span> 
         <span className='flex items-center justify-between py-4'>Why early access?
         <FiPlusCircle />
         </span>
@@ -90,7 +90,7 @@ const Footer = () => {
         </span>
       </div>
     </div>
-    <div className="bg-black opacity-2 mt-8   rounded-xl">
+    <div className="bg-black opacity-2 mt-8    rounded-xl">
       <div className='text-white '>
         <h2 className="p-8 text-xl text-gray-300">Join 100,000+ students</h2>
         <p className="text-xl text-gray-300">Stay in the loop with everything you need to know.</p>
