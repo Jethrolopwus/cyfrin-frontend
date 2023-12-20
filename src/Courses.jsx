@@ -115,7 +115,7 @@ const Courses = () => {
           <FaArrowRight  className='text-red-400 text-sm '/>
           Open Courses
         </span>
-        <h2 className='text-3xl font-bold mx-4'>Security & Auditing</h2>
+         <h2 className='text-3xl font-bold mx-4'>Security & Auditing</h2>
       
       </div>
       <div>

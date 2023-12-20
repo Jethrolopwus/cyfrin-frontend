@@ -105,7 +105,7 @@ const Home = () => {
             </div>
           </section>
           <section className='w-full'>
-            <div className='mt-8   flex gap-4 flex-wrap w-full'>
+            <div className='mt-8  flex gap-4 flex-wrap w-full'>
               <div className=' border-2 px-8  mt-4 shadow-2xl rounded-xl mx-auto md:w-[45%] w-11/12'>
                 <img src={avatarcdb} alt='avatar for the courses' width={1000} height={100} />
                 <div className='flex flex-wrap my-8 w-full'>

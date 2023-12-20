@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import codehawksLogo from "./assets/codehawks-logo.png"
 import { FiPlusCircle } from "react-icons/fi";
 import { FaArrowRight } from "react-icons/fa6";
+import logo from "./assets/codehawks-logo.png"
 
 const Footer = () => {
   return (
@@ -14,13 +15,13 @@ const Footer = () => {
       <div className=' py-32'>
         <div className='flex items-center gap-2 mx-4  border-2 border-gray-200 rounded-3xl'>
              <div className='m-8'>
-             <img src={codehawksLogo} alt=" Code Hawk logo"/>
-              <h2 className='text-white text-2xl sm:text-xl md:2xl py-8'>Not sure where to go after completing our courses?</h2>
-              <p className='text-white'>Apply your skills at the CodeHawks competitive audits platform. Hack, win prizes and shape the future of Web3!</p>
-              <span className='flex items-center gap-2 m-8 justify-center border-2 py-2  border-blue-100 text-white rounded-lg'>
-              Visit CodeHawks
-              <FaArrowRight  className='text-white text-sm '/>
-            </span>
+                <img src={codehawksLogo} alt=" Code Hawk logo"/>
+                <h2 className='text-white text-2xl sm:text-xl md:2xl py-8'>Not sure where to go after completing our courses?</h2>
+                <p className='text-white'>Apply your skills at the CodeHawks competitive audits platform. Hack, win prizes and shape the future of Web3!</p>
+                <span className='flex items-center gap-2 m-8 justify-center border-2 py-2  border-blue-100 text-white rounded-lg'>
+                Visit CodeHawks
+                <FaArrowRight  className='text-white text-sm '/>
+              </span>
              </div>
             <div className='py-8 h-30 px-2 '>
             <img src={codeHawks} alt="codeHawks leading bg" />
@@ -44,7 +45,7 @@ const Footer = () => {
             </span>
        </div>
       </div>
-      <div className='m-8 p-8'>
+      <div className='m-8 p-8 w-full bg-gray-50'>
         <span className='flex items-center justify-between p-4'>How do I get access to Cyfrin Updraft?
         <FiPlusCircle />
         </span>
@@ -66,7 +67,7 @@ const Footer = () => {
         <span className='flex items-center justify-between py-4'>Do I get any certifications for completing the Cyfrin Updraft courses?
         <FiPlusCircle />
         </span>
-        <span nonce='flex  justify-between py-4'>I have never coded in my life, are these courses suitable for me?
+        <span nonce='flex items-center justify-between py-4'>I have never coded in my life, are these courses suitable for me?
         <FiPlusCircle />
         </span>
         <span className='flex items-center justify-between py-4'>What is Cyfrin Updraft?
@@ -89,7 +90,7 @@ const Footer = () => {
         </span>
       </div>
     </div>
-    <div className="bg-black opacity-2 mt-8  rounded-xl">
+    <div className="bg-black opacity-2 mt-8   rounded-xl">
       <div className='text-white '>
         <h2 className="p-8 text-xl text-gray-300">Join 100,000+ students</h2>
         <p className="text-xl text-gray-300">Stay in the loop with everything you need to know.</p>
@@ -102,6 +103,8 @@ const Footer = () => {
             <p className="p-2 border-2 text-gray-400 border-blue-200  rounded-xl text-2xl ">Enter your Email</p>
             <button className="text-xl p-4 text-gray-200 font-semibold ">Subscribe</button>
           </div>
+          <img src={logo} alt="logo" className=" p-4" />
+
           <p className="text-xl text-gray-400 ">We will not share your info with 3rd parties without consent.</p>
 
         </div>
