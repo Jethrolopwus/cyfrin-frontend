@@ -11,10 +11,10 @@ const Courses = () => {
 
   <div className='flex flex-col w-full h-auto relative'>
    
-  <div className='w-full h-full rounded-3xl absolute top-0 bg-gradient-to-br -z-10 from-gray-300 via-gray-300 to-red-400 '/>
+  <div className='w-full h-full mt-8 rounded-3xl absolute top-0 bg-gradient-to-br -z-10 from-gray-300 via-gray-300 to-red-400 '/>
     <main>
         <div className='flex text-start md:text-center flex-col md:flex-col-1 items-center w-11/12 mx-auto'>
-          <p className='text-blue-600 text-lg font-bold mt-8'>Everything you need</p>
+          <p className='text-blue-600 text-lg font-bold mt-12'>Everything you need</p>
           <h2 className='font-extrabold text-4xl font-mono mt-6 leading-snug'>Our Courses</h2>
           <p className='mt-12 text-2xl text-gray-600  mx-10'>Whether youre new to web3, a seasoned engineer, or an aspirant smart contract auditor, we have the right courses for you.</p>
         </div>
@@ -46,8 +46,8 @@ const Courses = () => {
                   </span>
                 </div>
                 <div className='bg-gray-200 rounded-xl border-4 w-full mt-2 py-8 px-12 mx-8'>
-                  <p className='text-3xl font-semibold py-8 '>Course Outline</p>
-                  <div className='border-2 border-blue-100 px-4 rounded-full p-3 text-xl text-gray-300 font-medium  bg-blue-50'>What is web3?</div> <br />
+                  <p className='text-2xl font-semibold py-8 '>Course Outline</p>
+                  <div className='border-2 border-blue-100 px-4 rounded-full p-3  md:text-sm sm:text-sm xl:text-xl text-gray-300 font-medium  bg-blue-50'>What is web3?</div> <br />
                   <div className='border-2 border-blue-100 px-4 rounded-full p-3 text-xl text-gray-300 font-medium  bg-blue-50'>The Blockchain</div> <br />
                   <div className='border-2 border-blue-100 px-4 rounded-full p-3   text-xl text-gray-300 font-medium  bg-blue-50'>Smart Contracts</div> <br />
                   <div className='border-2 border-blue-100 px-4 rounded-full p-3   text-xl text-gray-300 font-medium  bg-blue-50'>Dfi</div>
@@ -90,7 +90,7 @@ const Courses = () => {
           </div>
         </div>
         <div className='mt-8 mx-auto '>
-          <div className=' bg-white mx-8 g-white border-2 rounded-3xl '>
+          <div className=' bg-white mx-2 g-white border-2 rounded-3xl '>
           <h2 className='text-3xl mt-4 mx-4 font-semibold  border-b border-gray-300 border-solid'>Foundry 101</h2>
           <p className='text-2xl mx-4 mt-8 '>Already know Solidity? Your next step is Foundry! </p>
           <p className='text-gray-500 text-2xl mx-4'> Learn how to manage your dependencies, compile your project, run tests, deploy, and interact with your from the command-line and via Solidity scripts.</p>
@@ -100,7 +100,7 @@ const Courses = () => {
 
             </span>
           </div>
-          <div className=' bg-white mx-8 g-white border-2 rounded-3xl mt-8  '>
+          <div className=' bg-white mx-2 border-2 rounded-3xl mt-8  '>
           <h2 className='text-3xl mt-4 mx-4 font-semibold  border-b border-gray-300 border-solid'>Advanced Foundry</h2>
           <p className='text-2xl mx-4 mt-8 '>Become a Foundry expert! </p>
           <p className='text-gray-500 text-2xl mx-4'> Learn advanced techniques to develop, deploy, test, optimise and interact with your smart contract using industry standard tools used by the top smart contracts engineers in web3</p>
@@ -128,12 +128,12 @@ const Courses = () => {
             <div className='mt-8 mx-4 max-w-md'>
               <p className='text-2xl mt-4 '>Start your career as a smart contract auditor!</p>
               <p className='text-2xl text-gray-600'> Learn the best practices for writing secure and optimized smart contracts. Explore techniques like fuzzing, invariant testing, formal verification, and more to identify bugs and protect web3 protocols.</p>
-              <span className='flex items-center gap-2 m-8 w-36 border-2 py-2 border-blue-100 rounded-lg'>
+              <span className='flex items-center gap-2 m-4 w-36  border-2 py-2 border-blue-100 rounded-lg'>
               Watch Courses
               <FaArrowRight  className='text-black-600 text-sm '/>
             </span>
             </div>
-            <div className='bg-gray-200 rounded-xl border-4 w-full mt-2 py-8 px-12 mx-8'>
+            <div className='bg-gray-200 rounded-xl border-4 w-full  mt-2 py-8 px-12 '>
             <p className='text-3xl font-semibold py-8 '>Course Outline</p>
             <div className='border-2 border-blue-100 px-4 rounded-full p-3 text-xl text-gray-300 font-medium  bg-blue-50'>What is smart contract audit?</div> <br/>
             <div className='border-2 border-blue-100 px-4 rounded-full p-3 text-xl text-gray-300 font-medium  bg-blue-50'>Your First Audit</div> <br />

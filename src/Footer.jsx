@@ -11,7 +11,7 @@ import logo from "./assets/Cyfrin.png";
 const Footer = () => {
   return (
     <footer className="w-full">
-        <div className='bg-black sm:mt-2 md:mx-2  mt-4 border-b-2 rounded-lg '>
+        <div className='bg-black sm:mt-2 md:mx-2  mt-4 border-b-2 rounded-lg  '>
       <div className=' py-32'>
         <div className='flex items-center gap-2 mx-4  border-2 border-gray-200 rounded-3xl'>
              <div className='m-8'>
@@ -29,7 +29,7 @@ const Footer = () => {
         </div>
         </div>
     </div>
-    <div className='flex flex-wrap md:flex-nowrap'>
+    <div className='flex flex-wrap md:flex-nowrap mt-16'>
       <div className='m-8 w-full md:w-[45%] md:text-start'>
         <p className='text-blue-600 py-2'>Support</p>
         <h1 className='text-3xl font-bold py-3'>FAQs</h1>
@@ -46,46 +46,40 @@ const Footer = () => {
        </div>
       </div>
       <div className='m-8 p-8 w-full md:w-[45%] bg-gray-50'>
-        <span className='flex items-center justify-between p-4'>How do I get access to Cyfrin Updraft?
+        <span className='flex items-center justify-between py-6'>How do I get access to Cyfrin Updraft?
         <FiPlusCircle />
         </span>
-        <span className='flex items-center justify-between py-4'>When will I receive my early access code?
+        <span className='flex items-center justify-between py-6 '>When will I receive my early access code?
         <FiPlusCircle />
         </span> 
-        <span className='flex items-center justify-between py-4'>Why early access?
+        <span className='flex items-center justify-between py-6'>Why early access?
         <FiPlusCircle />
         </span>
-        <span className='flex items-center justify-between py-4'>Are your courses completely free?
+        <span className='flex items-center justify-between py-6'>Are your courses completely free?
         <FiPlusCircle />
         </span>
-        <span className='flex items-center justify-between py-4' >When do your courses start?
+        <span className='flex items-center justify-between py-6' >When do your courses start?
         <FiPlusCircle />
         </span>
-        <span className='flex items-center justify-between py-4'>How long do courses take to complete?
+        <span className='flex items-center justify-between py-6'>How long do courses take to complete?
         <FiPlusCircle />
         </span>
-        <span className='flex items-center justify-between py-4'>Do I get any certifications for completing the Cyfrin Updraft courses?
+        <span className='flex items-center justify-between py-6'>What is Cyfrin Updraft?
         <FiPlusCircle />
         </span>
-        <span nonce='flex items-center justify-between py-4'>I have never coded in my life, are these courses suitable for me?
+        <span className='flex items-center justify-between py-6'>What’s happened to Patrick’s courses?
         <FiPlusCircle />
         </span>
-        <span className='flex items-center justify-between py-4'>What is Cyfrin Updraft?
+        <span className='flex items-center justify-between py-6'>I have never coded in my life, are these courses suitable for me?
         <FiPlusCircle />
         </span>
-        <span className='flex items-center justify-between py-4'>What’s happened to Patrick’s courses?
+        <span className='flex items-center justify-between py-6'>What is Cyfrin Updraft?
         <FiPlusCircle />
         </span>
-        <span className='flex items-center justify-between py-4'>I have never coded in my life, are these courses suitable for me?
+        <span className='flex items-center justify-between py-6'>What’s happened to Patrick’s courses?
         <FiPlusCircle />
         </span>
-        <span className='flex items-center justify-between py-4'>What is Cyfrin Updraft?
-        <FiPlusCircle />
-        </span>
-        <span className='flex items-center justify-between py-4'>What’s happened to Patrick’s courses?
-        <FiPlusCircle />
-        </span>
-        <span className='flex items-center justify-between py-4'>How is Cyfrin Updraft connected to CodeHawks?
+        <span className='flex items-center justify-between py-6'>How is Cyfrin Updraft connected to CodeHawks?
         <FiPlusCircle />
         </span>
       </div>
@@ -104,7 +98,7 @@ const Footer = () => {
     </div>
     <div className="flex flex-col items-center justify-between p-8 m-8">
       <img src={logo} alt="logo" className="p-4" />
-      <p className="text-xl md:text-2xl text-gray-400 mb-4 text-center">We will not share your info with 3rd parties without consent.</p>
+      <p className="text-xl text-gray-400 mb-4 text-center">We will not share your info with 3rd parties without consent.</p>
       <ul className="flex items-center text-white flex-wrap gap-4 px-4 text-xl md:text-2xl justify-center py-4">
         <li>
           <Link>Home</Link>
