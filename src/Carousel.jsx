@@ -4,7 +4,7 @@ import polygon from ".//assets/Polygon.png";
 
 import alchemy from "./assets/alchemy.png";
 import metamask from "./assets/MetaMask.png";
-import Blur from "./assets/BLUR.png";
+import last from "./assets/Cyfrin.png";
 import cyfrin from "./assets/Cyfrin.png";
 import blockfi from "./assets/Blockfi.png";
 import consensy from "./assets/consensys.png";
@@ -146,7 +146,7 @@ const Carousel = () => {
             <div className="!h-32 !w-32  flex items-center justify-center group">
               <img
                 className="opacity-40 group-hover:opacity-100 !h-10 !w-32 transform rounded-2xl duration-500 ease-in-out"
-                src={Blur}
+                src={last}
                 alt="Client 09"
               />
             </div>
