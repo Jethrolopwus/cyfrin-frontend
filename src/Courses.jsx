@@ -10,7 +10,7 @@ const Courses = () => {
   return (
 
   <div className='flex flex-col w-full h-auto relative'>
-    {/* <img src={Background} alt=' courses background' className='rounded-3xl h-full w-full' /> */}
+   
   <div className='w-full h-full rounded-3xl absolute top-0 bg-gradient-to-br -z-10 from-gray-300 via-gray-300 to-red-400 '/>
     <main>
         <div className='flex text-start md:text-center flex-col md:flex-col-1 items-center w-11/12 mx-auto'>
