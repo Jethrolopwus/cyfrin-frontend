@@ -4,7 +4,7 @@ import polygon from ".//assets/Polygon.png";
 
 import alchemy from "./assets/alchemy.png";
 import metamask from "./assets/MetaMask.png";
-import Blur from "./assets/Blur.png";
+import Blur from "./assets/BLUR.png";
 import cyfrin from "./assets/Cyfrin.png";
 import blockfi from "./assets/Blockfi.png";
 import consensy from "./assets/consensys.png";
