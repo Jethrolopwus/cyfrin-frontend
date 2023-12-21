@@ -109,7 +109,7 @@ const Testimonials = () => {
     </p>
   </div>
 
-  <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-4 mt-8 w-full mx-auto'>
+  <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-col-3 gap-4 mt-8 w-full mx-auto'>
     {/* Testimonials go here, use appropriate responsive classes */}
         <div className='flex flex-wrap  items-center gap-4  mt-8w-11/12 mx-auto '>
                         <div className='border-2 rounded-3xl  bg-gray-200  '>

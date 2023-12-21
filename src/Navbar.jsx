@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className="flex justify-between items-center w-full ">
             <div className='flex  items-center gap-4'>
               <img src={cyfrin} alt="nav-logo" />
-              <h3 className="text-2xl font-medium text-gray-600 px-8">cyfrin updraft</h3>
+              {/* <h3 className="text-2xl font-medium text-gray-600 px-8"></h3> */}
             </div>
 
             <ul className="hidden md:flex items-center gap-2">
