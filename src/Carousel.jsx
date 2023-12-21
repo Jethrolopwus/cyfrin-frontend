@@ -27,7 +27,7 @@ const Carousel = () => {
   <div className="py-12 md:py-20">
     {/* Section header */}
     <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-      <h2 className="h2 font-cabinet-grotesk text-gray-600 text-xl">
+      <h2 className="h2 font-cabinet-grotesk text-gray-600 font-bold text-xs md:text-xl xl:text-2xl">
         Our students have been hired by the top companies in Web3
       </h2>
     </div>
