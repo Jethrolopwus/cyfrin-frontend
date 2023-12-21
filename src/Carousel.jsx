@@ -7,9 +7,9 @@ import metamask from "./assets/MetaMask.png";
 import last from "./assets/Cyfrin.png";
 import cyfrin from "./assets/Cyfrin.png";
 import blockfi from "./assets/Blockfi.png";
-import consensy from "./assets/consensys.png";
+import consensy from "./assets/Consensys.png";
 import bitconomy from "./assets/bitconomy.png";
-import cryptodotcom from "./assets/cryptodotcom.png";
+import cryptodotcom from "./assets/Cryptodotcom.png";
 import gemini from "./assets/Gemini.png";
 import thirdweb from  "./assets/Thirdweb.png"
 
