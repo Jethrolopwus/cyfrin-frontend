@@ -3,17 +3,18 @@
 // import uj from "./assets/uj.jpg";
 // import ya from "../images/ya.png";
 // import sterling from "../images/sterling.png";
-import tic from ".//assets/tic.png";
+import polygon from ".//assets/Polygon.png";
 // import vesti from "../images/vesti.jpg";
-import gps from "./assets/gps.jpg";
-import giz from "./assets/giz.jpg";
-import jtg from "./assets/jtg.png";
-import itf from "./assets/itf.jpg";
-import gdg from "./assets/gdg.png";
-// import cp from "../images/cp.png";
-// import pictda from "./assets/pictda.png";
-// import Client10 from "../images/client-10.svg";
-// import Carousel from "../Components/Carousel";
+import alchemy from "./assets/alchemy.png";
+import metamask from "./assets/MetaMask.png";
+import Blur from "./assets/Blur.png";
+import cyfrin from "./assets/Cyfrin.png";
+import blockfi from "./assets/Blockfi.png";
+import consensy from "./assets/consensys.png";
+import bitconomy from "./assets/bitconomy.png";
+import cryptodotcom from "./assets/cryptodotcom.png";
+import gemini from "./assets/Gemini.png";
+import thirdweb from  "./assets/Thirdweb.png"
 
 // Import Swiper
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -34,8 +35,6 @@ const Carousel = () => {
           </h2>
         </div>
 
-        {/* Carousel built with Swiper.js [https://swiperjs.com/] */}
-        {/* * Custom styles in src/css/additional-styles/theme.scss */}
         <Swiper
             autoplay={{delay:100, disableOnInteraction:false}}
           modules={[Autoplay]}
@@ -43,20 +42,12 @@ const Carousel = () => {
           spaceBetween={0}
           className="flex"
           >
-          {/* <SwiperSlide className="bg-slate-900 ">
-             <div className="!h-32 bg-green-800 rounded-2xl flex items-center justify-center group">
-              <img
-                className="opacity-40 w-full group-hover:opacity-100 rounded-2xl transform duration-500 ease-in-out"
-                src={uj}
-                alt="Client 02"
-              />
-            </div>
-          </SwiperSlide> */}
+          
           <SwiperSlide>
-            <div className=" !h-32 !w-32  rounded-2xl flex items-center justify-center group">
+            <div className=" !h-32 !w-32 rounded-2xl flex items-center justify-center group">
               <img
-                className="opacity-40 group-hover:opacity-100 !h-32 !w-32 rounded-2xl transform duration-500 ease-in-out"
-                src={gps}
+                className="opacity-40 group-hover:opacity-100 !h-10 !w-32 rounded-2xl transform duration-500 ease-in-out"
+                src={alchemy}
                 alt="Client 07"
               />
             </div>
@@ -64,8 +55,8 @@ const Carousel = () => {
           <SwiperSlide>
             <div className="!h-32 !w-32 rounded-2xl flex items-center justify-center group">
               <img
-                className="opacity-40 group-hover:opacity-100 transform duration-500 ease-in-out"
-                src={gdg}
+                className="opacity-40 group-hover:opacity-100 !h-10 !w-32 transform duration-500 ease-in-out"
+                src={blockfi}
                 alt="Client 11"
               />
             </div>
@@ -73,8 +64,8 @@ const Carousel = () => {
           <SwiperSlide>
             <div className="!h-32 !w-32 rounded-2xl flex items-center justify-center group">
               <img
-                className="opacity-40 group-hover:opacity-100 rounded-2xl transform duration-500 ease-in-out"
-                src={itf}
+                className="opacity-40 group-hover:opacity-100 !h-10 !w-32  rounded-2xl transform duration-500 ease-in-out"
+                src={bitconomy}
                 alt="Client 10"
               />
             </div>
@@ -82,8 +73,8 @@ const Carousel = () => {
           <SwiperSlide>
               <div className="!h-32 !w-32 rounded-2xl flex items-center justify-center group">
               <img
-                className="opacity-40 group-hover:opacity-100 transform rounded-2xl duration-500 ease-in-out"
-                src={tic}
+                className="opacity-40 group-hover:opacity-100 !h-10 !w-32 transform rounded-2xl duration-500 ease-in-out"
+                src={consensy}
                 alt="Client 09"
               />
             </div>
@@ -91,8 +82,8 @@ const Carousel = () => {
           <SwiperSlide>
              <div className="!h-32 !w-32 rounded-2xl flex items-center justify-center group">
               <img
-                className="opacity-40 group-hover:opacity-100 transform duration-500 ease-in-out"
-                src={giz}
+                className="opacity-40 group-hover:opacity-100 !h-10 !w-32 transform duration-500 ease-in-out"
+                src={cyfrin}
                 alt="Client 08"
               />
             </div>
@@ -100,8 +91,53 @@ const Carousel = () => {
           <SwiperSlide>
             <div className="!h-32 !w-32  flex items-center justify-center group">
               <img
-                className="opacity-40 group-hover:opacity-100 transform rounded-2xl duration-500 ease-in-out"
-                src={jtg}
+                className="opacity-40 group-hover:opacity-100 !h-10 !w-32 transform rounded-2xl duration-500 ease-in-out"
+                src={cryptodotcom}
+                alt="Client 09"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="!h-32 !w-32  flex items-center justify-center group">
+              <img
+                className="opacity-40 group-hover:opacity-100 !h-10 !w-32 transform rounded-2xl duration-500 ease-in-out"
+                src={Blur}
+                alt="Client 09"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="!h-32 !w-32  flex items-center justify-center group">
+              <img
+                className="opacity-40 group-hover:opacity-100 !h-10 !w-32 transform rounded-2xl duration-500 ease-in-out"
+                src={metamask}
+                alt="Client 09"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="!h-32 !w-32  flex items-center justify-center group">
+              <img
+                className="opacity-40 group-hover:opacity-100 !h-10 !w-32 transform rounded-2xl duration-500 ease-in-out"
+                src={polygon}
+                alt="Client 09"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="!h-32 !w-32  flex items-center justify-center group">
+              <img
+                className="opacity-40 group-hover:opacity-100 !h-10 !w-32 transform rounded-2xl duration-500 ease-in-out"
+                src={gemini}
+                alt="Client 09"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="!h-32 !w-32  flex items-center justify-center group">
+              <img
+                className="opacity-40 group-hover:opacity-100 !h-10 !w-32 transform rounded-2xl duration-500 ease-in-out"
+                src={thirdweb}
                 alt="Client 09"
               />
             </div>

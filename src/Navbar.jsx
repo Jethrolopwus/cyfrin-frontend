@@ -1,6 +1,7 @@
 import{ useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaBars } from 'react-icons/fa6';
+import cyfrin from "./assets/Cyfrin.png"
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,7 +14,7 @@ const Navbar = () => {
     <nav className='fixed left-0 top-0 w-full bg-gray-100 border-b-2 px-4 py-4 z-10'>
       <div className="flex justify-between items-center w-full ">
             <div className='flex  items-center gap-4'>
-              <img src="/" alt="nav-logo" />
+              <img src={cyfrin} alt="nav-logo" />
               <h3 className="text-2xl font-medium text-gray-600 px-8">cyfrin updraft</h3>
             </div>
 

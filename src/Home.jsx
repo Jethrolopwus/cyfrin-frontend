@@ -8,7 +8,7 @@ import avatar6 from "./assets/avatar-6.png"
 import avatar7 from "./assets/avatar-7.png"
 import avatar8 from "./assets/avatar-8.png"
 import avatar9 from "./assets/avatar-9.png";
-// import background from "./assets/hero-background.png"
+// import background1 from "./assets/hero-background.png"
 import lesson from "./assets/lesson-hero.jpg"
 import Access from "./assets/accessible.png"
 import start from "./assets/start-when.png"
@@ -62,8 +62,9 @@ const Home = () => {
                       <img src={avatar9} alt='avatar' width={40} height={20} />
                     </span>
                   </div>
-                  <div className='my-10 relative bg-[url(`./src/Components/images/hero-background.png`)]'>
+                  <div className='my-10 relative bg-[url(`./src/assets/hero-background.png`)]'>
                   {/* <img  src={background} alt='section background color' className='h-screen w-full rounded-3xl' /> */}
+                  
                   <div className='absolute left-0 mt-36 mx-9'>
                     <img className='h-screen' src={lesson} alt='Hero-background'  />
                   </div>

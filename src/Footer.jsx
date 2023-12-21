@@ -6,14 +6,14 @@ import { Link } from 'react-router-dom';
 import codehawksLogo from "./assets/codehawks-logo.png"
 import { FiPlusCircle } from "react-icons/fi";
 import { FaArrowRight } from "react-icons/fa6";
-import logo from "./assets/codehawks-logo.png"
+import logo from "./assets/Cyfrin.png";
 
 const Footer = () => {
   return (
     <footer className="w-full">
         <div className='bg-black sm:mt-2 md:mx-2  mt-4 border-b-2 rounded-lg '>
       <div className=' py-32'>
-        <div className='flex flex-wrap items-center gap-2 mx-4  border-2 border-gray-200 rounded-3xl'>
+        <div className='flex items-center gap-2 mx-4  border-2 border-gray-200 rounded-3xl'>
              <div className='m-8'>
                 <img src={codehawksLogo} alt=" Code Hawk logo"/>
                 <h2 className='text-white text-2xl sm:text-xl md:2xl py-8'>Not sure where to go after completing our courses?</h2>
@@ -90,46 +90,42 @@ const Footer = () => {
         </span>
       </div>
     </div>
-    <div className="bg-black opacity-2 mt-8    rounded-xl">
-      <div className='text-white '>
-        <h2 className="p-8 text-xl text-gray-300">Join 100,000+ students</h2>
-        <p className="text-xl text-gray-300">Stay in the loop with everything you need to know.</p>
-        <div>
-        <span className='flex w-44 items-center gap-2 m-8 justify-center  border-2 py-2 border-blue-100 text-white rounded-lg'>
-              Visit CodeHawks
-              <FaArrowRight  className='text-white text-sm '/>
-          </span>
-          <div className="flex items-center justify-center   gap-4 p-8">
-            <p className="p-2 border-2 text-gray-400 border-blue-200  rounded-xl text-2xl">Enter your Email</p>
-            <button className="text-xl p-4 text-gray-200 font-semibold ">Subscribe</button>
-          </div>
-          <img src={logo} alt="logo" className=" p-4" />
-
-          <p className="text-xl text-gray-400 ">We will not share your info with 3rd parties without consent.</p>
-
-        </div>
+    <div className="bg-black opacity-2 mt-8  rounded-xl">
+  <div className="text-white pt-[12%]">
+    <div className="grid grid-cols-1 md:grid-cols-2">
+      <div className="p-8">
+        <h2 className="p-2 md:p-8 text-xl md:text-2xl text-gray-300">Join 100,000+ students</h2>
+        <p className="text-xl md:text-2xl text-gray-300">Stay in the loop with everything you need to know.</p>
       </div>
-      <div className='text-white px-8 '>
-        <ul className='flex items-center flex-wrap gap-4 px-4 text-xl justify-end py-4'>
-          <li>
-            <Link>Home</Link>
-          </li>
-          <li>
-            <Link>Courses</Link>
-          </li>
-          <li>
-          <FaDiscord />
-          </li>
-          <li>
-          <FaGithub />
-          </li>
-          <li>
-          <FiTwitter />
-          </li>
-          
-        </ul>
+      <div className="flex flex-col items-center justify-between gap-4 p-8">
+        <p className="p-2 border-2 text-gray-400 border-blue-200 rounded-xl text-xl md:text-2xl w-full">Enter your Email</p>
+        <button className="text-xl md:text-2xl p-2 text-gray-200 font-semibold border-2 rounded-3xl bg-blue-800 w-full md:w-auto">Subscribe</button>
       </div>
     </div>
+    <div className="flex flex-col items-center justify-between p-8 m-8">
+      <img src={logo} alt="logo" className="p-4" />
+      <p className="text-xl md:text-2xl text-gray-400 mb-4 text-center">We will not share your info with 3rd parties without consent.</p>
+      <ul className="flex items-center text-white flex-wrap gap-4 px-4 text-xl md:text-2xl justify-center py-4">
+        <li>
+          <Link>Home</Link>
+        </li>
+        <li>
+          <Link>Courses</Link>
+        </li>
+        <li>
+          <FaDiscord />
+        </li>
+        <li>
+          <FaGithub />
+        </li>
+        <li>
+          <FiTwitter />
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
     </footer>
   )
 }
