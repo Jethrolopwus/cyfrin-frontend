@@ -40,7 +40,7 @@ const Courses = () => {
                     </span>
                       <p className='text-sm px-2'>500+ users have taken this course.</p>
                   </div>
-                  <span className='flex items-center gap-2 max-w-[120px] m-8 border-2 py-2 border-blue-100 px-2 rounded-lg'>
+                  <span className='flex items-center gap-2 w-44  md:m-4 sm:p-4 m-8 border-2 p-2 border-blue-100  rounded-lg'>
                     Get Started
                     <FaArrowRight  className='text-black-600 text-sm '/>
                   </span>
@@ -72,7 +72,7 @@ const Courses = () => {
               <p className='text-xl mx-2 text-gray-500'>Simple storage</p>
               <p className='text-xl mx-2 text-gray-400'>Storage factory</p>
               <p className='text-xl mx-2 text-gray-300'>fund Me</p>
-              <div className='flex items-center mt-8'>
+              <div className='flex items-center mt-8 '>
                 <span className='flex items-center '>
                     <img src={avatar} alt='avatar' width={40} height={20} />
                     <img src={avatar2} alt='avatar' width={40} height={20} />
@@ -80,21 +80,21 @@ const Courses = () => {
                     <img src={avatar4} alt='avatar' width={40} height={20} />
                     <img src={avatar5} alt='avatar' width={40} height={20} />
                 </span>
-                <p className='text-xs  mt-20 w-full'>500+ users have taken this course.</p>
-                <span className='flex items-center text-sm m-8 w-[250px] py-2  border-2 border-blue-100 rounded-lg '>
-                  Get Started
-                <FaArrowRight  className='text-black-600 text-sm '/>
-              </span>
               </div>
+               <p className='text-xs mt-4 '>500+ users have taken this course.</p>
+                    <span className='flex items-center text-sm m-4 w-32 md:m-4 sm:p-4 py-2  border-2 border-blue-100 rounded-lg '>
+                      Get Started
+                    <FaArrowRight  className='text-black-600 text-sm '/>
+                      </span>
             </div>
           </div>
         </div>
-        <div className='mt-8 w-11/12 mx-auto'>
-          <div className=' bg-white mx-8 g-white border-2 rounded-3xl  '>
+        <div className='mt-8 mx-auto '>
+          <div className=' bg-white mx-8 g-white border-2 rounded-3xl '>
           <h2 className='text-3xl mt-4 mx-4 font-semibold  border-b border-gray-300 border-solid'>Foundry 101</h2>
           <p className='text-2xl mx-4 mt-8 '>Already know Solidity? Your next step is Foundry! </p>
           <p className='text-gray-500 text-2xl mx-4'> Learn how to manage your dependencies, compile your project, run tests, deploy, and interact with your from the command-line and via Solidity scripts.</p>
-          <span className='flex items-center gap-2 max-w-[120px] m-8 border-2 py-2 border-blue-100 px-2 rounded-lg'>
+          <span className='flex items-center gap-2  w-32 m-8 border-2 py-2 border-blue-100 px-2 rounded-lg'>
               Get Started
               <FaArrowRight  className='text-black-600 text-sm '/>
 
@@ -104,7 +104,7 @@ const Courses = () => {
           <h2 className='text-3xl mt-4 mx-4 font-semibold  border-b border-gray-300 border-solid'>Advanced Foundry</h2>
           <p className='text-2xl mx-4 mt-8 '>Become a Foundry expert! </p>
           <p className='text-gray-500 text-2xl mx-4'> Learn advanced techniques to develop, deploy, test, optimise and interact with your smart contract using industry standard tools used by the top smart contracts engineers in web3</p>
-          <span className='flex items-center gap-2 max-w-[120px] m-8 border-2 py-2 border-blue-100 px-2 rounded-lg'>
+          <span className='flex items-center gap-2 w-32 m-8 border-2 py-2 border-blue-100 px-2 rounded-lg'>
               Get Started
               <FaArrowRight  className='text-black-600 text-sm '/>
             </span>
@@ -114,7 +114,7 @@ const Courses = () => {
         <h2 className='text-3xl font-bold mx-4 mt-8'>Security and Auditing</h2>
         <div className='border-4 border-blue-800 border-solid rounded-3xl mx-8 mt-8'>
           <div>
-            <span className='flex items-center text-red-300 bg-blue  gap-2 m-8 border-2 border-red-300 border-solid p-2 rounded-lg w-44'>
+            <span className='flex items-center text-red-300 bg-blue  xl:w-44  gap-2 m-8  border-2 border-red-300 border-solid p-2 rounded-lg '>
               <FaArrowRight  className='text-red-400 text-sm '/>
               Open Courses
             </span>
